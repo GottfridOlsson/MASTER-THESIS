@@ -1,0 +1,13 @@
+BCycle Cycle Results: Version	3.2f	Format	3
+Unit SN	1437389
+Channel #7
+Cell Name	u2c7
+Cell C_Rate (mAh)	0.0000000E+0
+Cell Mass (g)	0.0000000E+0
+Cell Area (cm2)	0.0000000E+0
+Time	den 15 februari 2024     13:17:40
+DateTime	45337.5539415278
+Project File	C:\SAI\BData\Gottfrid\SEM-02_less-deposition\2024-02-14_SEM-02_less-deposition_sample-G.bpro
+Cycle	Cycle	Cycle	Discharging/Charging	Discharging/Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging
+Repeat	Start Time (S)	End Time (S)	Capacity Ratio	Energy Ratio	Step #	Duration (S)	Capacity (Ah)	Capacity_CC (Ah)	Capacity_CV (Ah)	Capacity_CC2 (Ah)	Energy (Wh)	Energy_CC (Wh)	Energy_CV (Wh)	Energy_CC2 (Wh)	HFR1 (mOhm)	HFR2 (mOhm)	Current_End (A)	CellV_End (V)	AuxV_End (V)	Step #	Duration (S)	Capacity (Ah)	Capacity_CC (Ah)	Capacity_CV (Ah)	Capacity_CC2 (Ah)	Energy (Wh)	Energy_CC (Wh)	Energy_CV (Wh)	Energy_CC2 (Wh)	HFR1 (mOhm)	HFR2 (mOhm)	Current_End (A)	CellV_End (V)	AuxV_End (V)
+0	0.00	100.00	0.0000000E+0	0.0000000E+0	0	0.00	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	1	100.00	4.7293525E-7	4.7293525E-7	0.0000000E+0	0.0000000E+0	6.7457113E-8	6.7457113E-8	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	1.7043234E-5	-3.0983020E-2	-3.0601770E-2

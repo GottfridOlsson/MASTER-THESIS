@@ -1,0 +1,13 @@
+BCycle Cycle Results: Version	3.2f	Format	3
+Unit SN	1437389
+Channel #5
+Cell Name	Cu-Li Sample I
+Cell C_Rate (mAh)	0.0000000E+0
+Cell Mass (g)	0.0000000E+0
+Cell Area (cm2)	1.9600000E-1
+Time	den 21 februari 2024     10:17:26
+DateTime	45343.4287836458
+Project File	C:\SAI\BData\Gottfrid\SEM-03_deposition-amount\2024-02-21_SEM-03_deposition-amount_sample_I.bpro
+Cycle	Cycle	Cycle	Discharging/Charging	Discharging/Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Charging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging	Discharging
+Repeat	Start Time (S)	End Time (S)	Capacity Ratio	Energy Ratio	Step #	Duration (S)	Capacity (Ah)	Capacity_CC (Ah)	Capacity_CV (Ah)	Capacity_CC2 (Ah)	Energy (Wh)	Energy_CC (Wh)	Energy_CV (Wh)	Energy_CC2 (Wh)	HFR1 (mOhm)	HFR2 (mOhm)	Current_End (A)	CellV_End (V)	AuxV_End (V)	Step #	Duration (S)	Capacity (Ah)	Capacity_CC (Ah)	Capacity_CV (Ah)	Capacity_CC2 (Ah)	Energy (Wh)	Energy_CC (Wh)	Energy_CV (Wh)	Energy_CC2 (Wh)	HFR1 (mOhm)	HFR2 (mOhm)	Current_End (A)	CellV_End (V)	AuxV_End (V)
+0	0.00	978.00	0.0000000E+0	0.0000000E+0	0	0.00	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	0.0000000E+0	3	918.00	1.0534117E-5	9.7456731E-7	9.5595494E-6	0.0000000E+0	1.6251769E-9	9.9245974E-8	1.0087115E-7	0.0000000E+0	0.0000000E+0	0.0000000E+0	1.9641947E-4	-1.0103875E-1	-1.0089210E-1

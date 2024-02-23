@@ -1,0 +1,181 @@
+Begin Project:                BCycle_Project_2.0
+  BCycle Version:             3.2f
+  AlarmMinV:                  -2
+  AlarmMaxV:                  4
+  AlarmMinI:                  -1
+  AlarmMaxI:                  1
+  AlarmMinT1:                 0
+  AlarmMaxT1:                 30
+  AlarmMinV1:                 -1
+  AlarmMaxV1:                 1
+  AlarmMinV2:                 -1
+  AlarmMaxV2:                 1
+  AlarmMinVUse:               1
+  AlarmMaxVUse:               1
+  AlarmMinIUse:               0
+  AlarmMaxIUse:               0
+  AlarmMinT1Use:              0
+  AlarmMaxT1Use:              0
+  AlarmMinV1Use:              0
+  AlarmMaxV1Use:              0
+  AlarmMinV2Use:              0
+  AlarmMaxV2Use:              0
+  GangCount:                  1
+  RangeI:                     105
+  BandwidthI:                 1
+  BandwidthV:                 1
+  BandwidthP:                 1
+  BandwidthR:                 1
+  PolarityI:                  1
+  PolarityV:                  1
+  PolarityAuxV:               1
+  DataZeroType:               0
+  DataFileFormat:             3
+  Unit T:                     3
+  Unit I:                     1
+  Unit V:                     0
+  Unit Q:                     1
+  Unit E:                     1
+  Unit P:                     1
+  Unit R:                     1
+  Normal I:                   0
+  Normal Q:                   0
+  Normal E:                   0
+  Normal P:                   0
+  Normal R:                   0
+  Resolution V:               4
+  Resolution I:               5
+  Resolution Other:           5
+  BaseDataFile:               C:\SAI\BData\Gottfrid\SEM-02_less-deposition\2024-02-14_SEM-02_less-deposition_sample-G
+  BaseDataRunNo:              3
+  Begin Analyzer:             880
+    HFR Interval:             20
+    HFR1 Enabled:             0
+    HFR1 Integration Seconds: 0.2
+    HFR1 Integration Cycles:  3
+    HFR1 Frequency:           1000
+    HFR1 AmplV:               0.01
+    HFR1 AmplPercent:         10
+    HFR1 AmplMinI:            0.001
+    HFR1 AmplMaxI:            1
+    HFR2 Enabled:             0
+    HFR2 Integration Seconds: 0.2
+    HFR2 Integration Cycles:  3
+    HFR2 Frequency:           100
+    HFR2 AmplV:               0.01
+    HFR2 AmplPercent:         10
+    HFR2 AmplMinI:            0.001
+    HFR2 AmplMaxI:            1
+    Range V1:                 -3
+    Range V2:                 -3
+    Suppress DC:              2
+    Couple Frequency:         100
+    CC Method:                0
+    Use Whole:                1
+    Use Ref1:                 0
+    Use Ref2:                 0
+  End Analyzer:               880
+  Begin Channels:             1
+    Cell1Unit:                1437389
+    Cell1Channel:             7
+    Cell1UnitNo:              2
+    Cell1Title:               u2c7
+    Cell1CRate:               0
+    Cell1PRate:               0
+    Cell1Weight:              0
+    Cell1Area:                0
+  End Channels:               1
+  Experiment Type:            111
+  Begin Experiment:           Discharge CC	0.1  mA; 100 Seconds; 10 Sec/Pt; 0.01 Sec/Pt; 0.002 V/Pt 
+    Exp Name
+    Exp Guid:                 {9F1A053F-22DE-4514-BAF2-DEA9C54EFA66}
+    Duration:                 100
+    Duration Type:            0
+    Pol:                      0.1
+    Pol Type:                 1
+    PolV:                     1.5
+    PolV Type:                0
+    DurationCV:               60
+    DurationCV Type:          0
+    DurationCV Use:           0
+    Limit I:                  0
+    RangeI:                   -1001
+    BandwidthI:               -1
+    BandwidthV:               -1
+    Rate Type E:              1
+    Rate Type I:              0
+    Rate Fast:                0.01
+    Rate Slow:                10
+    Rate Delta E:             0.002
+    Rate Delta I:             0.001
+    Term MinE Use:            0
+    Term MaxE Use:            0
+    Term MinEref Use:         0
+    Term MaxEref Use:         0
+    Term MinDeltaE Use:       0
+    Term MaxDeltaE Use:       0
+    Term MinDeltaERef Use:    0
+    Term MaxDeltaERef Use:    0
+    Term MinE:                0
+    Term MaxE:                5
+    Term MinEref:             0
+    Term MaxEref:             5
+    Term MinDeltaE:           0.002
+    Term MaxDeltaE:           0.005
+    Term MinDeltaERef:        0.002
+    Term MaxDeltaERef:        0.005
+    Term DeltaTime:           10
+    Term MinI Use:            0
+    Term MaxI Use:            0
+    Term MinI:                0
+    Term MaxI:                1
+    Term MinI Type:           1
+    Term MaxI Type:           1
+    Term MinDeltaI Use:       0
+    Term MaxDeltaI Use:       0
+    Term MinDeltaI:           0.002
+    Term MaxDeltaI:           0.005
+    Term MinDeltaI Type:      1
+    Term MaxDeltaI Type:      1
+    Term MinP Use:            0
+    Term MaxP Use:            0
+    Term MinP:                0
+    Term MaxP:                5
+    Term MinP Type:           1
+    Term MaxP Type:           1
+    Term MinQ Use:            0
+    Term MaxQ Use:            0
+    Term MinQ:                0
+    Term MaxQ:                5
+    Term MinQ Type:           1
+    Term MaxQ Type:           1
+    Term MinQTotal Use:       0
+    Term MaxQTotal Use:       0
+    Term MinQTotal:           0
+    Term MaxQTotal:           0
+    Term MinQTotal Type:      1
+    Term MaxQTotal Type:      1
+    Term MinWh Use:           0
+    Term MaxWh Use:           0
+    Term MinWh:               0
+    Term MaxWh:               2
+    Term MinWh Type:          1
+    Term MaxWh Type:          1
+    Term MinS Use:            0
+    Term MaxS Use:            0
+    Term MinS:                0.1
+    Term MaxS:                0
+    Term MinExtT Use:         0
+    Term MaxExtT Use:         0
+    Term MinExtV1 Use:        0
+    Term MaxExtV1 Use:        0
+    Term MinExtV2 Use:        0
+    Term MaxExtV2 Use:        0
+    Term MinExtT:             0
+    Term MaxExtT:             5
+    Term MinExtV1:            0
+    Term MaxExtV1:            5
+    Term MinExtV2:            0
+    Term MaxExtV2:            5
+  End Experiment:             Discharge CC	0.1  mA; 100 Seconds; 10 Sec/Pt; 0.01 Sec/Pt; 0.002 V/Pt 
+End Project:                  BCycle_Project_2.0
