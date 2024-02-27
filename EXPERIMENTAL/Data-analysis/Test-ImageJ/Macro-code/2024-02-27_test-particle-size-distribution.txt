@@ -1,0 +1,79 @@
+/* ================================================================================== *
+   
+			 AUTHOR: GOTTFRID OLSSON
+			CREATED: 2024-02-26
+			UPDATED: 2024-02-27
+			  ABOUT: Macro to analyze particle size distribution.
+
+   ================================================================================== */
+
+
+
+
+
+// DECLARE VARIABLES //
+
+rootFilepath = "C:/MASTER-THESIS/EXPERIMENTAL/Data-analysis/Test-ImageJ/2024-02-21_SEM-03_tif/2024-02-21_Cu-Li_SEM-03_12";
+filenameEndings = newArray(1,2,3,4,5,6,7); //for initial testing, 2024-02-26
+TIF = ".tif";
+CSV = ".csv";
+nFiles = filenameEndings.length;
+
+
+
+// LOOP FOR IMAGE ANALYSIS //
+
+print("\nSTART OF ANALYSIS");
+
+
+for (i=0; i < nFiles; i++) {
+
+
+
+	// OPEN //
+
+	originalFilepath = rootFilepath + filenameEndings[i] + TIF;	
+	print("(" + i+1 + " of " + nFiles + "): Analyzing filepath: " + originalFilepath);
+	open(originalFilepath);
+
+
+
+	// THRESHOLD //
+
+	thresholdMethod = "MaxEntropy";
+	setAutoThreshold(thresholdMethod);  //run("Threshold...");
+	run("Convert to Mask");
+	//run("Close");
+
+	thresholdFilepath = rootFilepath + filenameEndings[i] + "_threshold-" + thresholdMethod + TIF;
+	saveAs("Tiff", thresholdFilepath);
+
+
+
+	// ANALYZE PARTICLE SIZES //
+
+	run("Analyze Particles...", "  show=Outlines display exclude clear summarize overlay");
+	
+	analyzedFilepath = rootFilepath + filenameEndings[i] + "_threshold-" + thresholdMethod + "_analyzed" + TIF;
+	saveAs("Tiff", analyzedFilepath);
+
+	analyzedResultsFilepath = rootFilepath + filenameEndings[i] + "_threshold-" + thresholdMethod + "_analyzed" + CSV;
+	saveAs("Results", analyzedResultsFilepath);
+
+
+
+	// CLOSE //
+
+      while (nImages>0) { 		// from: https://imagej.net/ij/macros/Close_All_Windows.txt
+          selectImage(nImages); 
+          close(); 
+      }
+
+}
+
+print("END OF ANALYSIS");
+
+
+
+//EOF
+
