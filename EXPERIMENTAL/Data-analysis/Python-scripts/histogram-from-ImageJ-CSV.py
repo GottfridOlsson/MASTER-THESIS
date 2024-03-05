@@ -38,8 +38,17 @@ def get_statistical_measures(data):
 
 
 ## READ ##
-CSV_filename = '2024-02-21_Cu-Li_SEM-03_125_threshold-MaxEntropy_analyzed.csv'
-CSV_path = 'C:\\MASTER-THESIS\\EXPERIMENTAL\\Data-analysis\\Test-ImageJ\\2024-02-21_SEM-03_tif\\' + CSV_filename
+root_path = 'C:\\MASTER-THESIS\\EXPERIMENTAL\\Data-analysis\\Test-ImageJ\\'
+CSV_data_map = '2024-02-21_SEM-03_tif\\'
+CSV_filename = '2024-02-21_Cu-Li_SEM-03_125_threshold-MaxEntropy_analyzed'
+CSV_filetype = '.csv'
+PDF_filetype = '.pdf'
+PDF_map = '2024-02-21_SEM-03_tif_PDF\\'
+PDF_filename = CSV_filename + '_histogram' + '_test'
+
+CSV_path =  root_path + CSV_data_map  + CSV_filename + CSV_filetype
+PDF_path = root_path + PDF_map + PDF_filename + PDF_filetype
+
 
 CSV_data   = CSV.read(CSV_path)
 CSV_header = CSV.get_header(CSV_data) # header =  [' ', 'Area', 'Mean', 'Min', 'Max'] (pixels)
@@ -68,11 +77,11 @@ font_size_legend = 9
 
 
 x_bins = [0,1,2,3,4,5,6,7,8,9,10]
-patch_color = 'r' #'#606060'
+patch_color = 'b' #'#606060'
 patch_linewidth = 0.5
 hatch_string = '\\\\\\' #'xxx' # '///'; / , \\ , | , - , + , x, o, O, ., *
 
-x_label = "X-axis, particle diameter (px)"
+x_label = "Particle diameter (px)"
 y_label = "Particle count"
 
 #x_lim = [np.min(x_data), np.max(x_data)]
@@ -110,12 +119,10 @@ f.set_axis_labels(  axs, x_label=x_label, y_label=y_label)
 #f.set_grid(         axs, grid_major_on=grid_major, grid_major_linewidth=0.7, grid_minor_on=grid_minor, grid_minor_linewidth=0.3) # set_grid must be after set_axis_scale for some reason (at least with 'log')
 #f.set_legend(       axs, legend_on=legend_on, alpha=1.0, location='best')
 
-#loc = plticker.MultipleLocator(base=5) # this locator puts ticks at regular intervals determined by base
-#axs.xaxis.set_major_locator(loc)
 
 f.align_labels(fig)
 f.set_layout_tight(fig)
-#f.export_figure_as_pdf(PDF_path)
+f.export_figure_as_pdf(PDF_path)
 
 print(f"\nData from filepath: {CSV_path}")
 print(f"Number of particles analyzed: {number_of_particles}")
