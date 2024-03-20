@@ -25,12 +25,12 @@ import matplotlib.ticker as plticker
 
 # READ .bdat #
 # Change these:
-filename_bdat = '2024-02-06_SEM-01_SEI-formation_sample-B.bdat' 
-filename_pdf = 'testdata1.pdf'
+filename_bdat = '2024-02-06_SEM-01_SEI-formation_sample-D.bdat' 
+filename_pdf = '2024-02-06_SEM-01_SEI-formation_sample-D.pdf'
 
 CURRENT_PATH = os.path.abspath(os.path.dirname(__file__))
 CSV_path = "\\MASTER-THESIS\\EXPERIMENTAL\\Data\\Battery-cycling\\SEM-01_SEI-formation\\" + filename_bdat
-PDF_path = CURRENT_PATH + "\\PDF\\" + filename_pdf
+PDF_path = "\\MASTER-THESIS\\EXPERIMENTAL\\Data-analysis\\Generated-plots\\" + filename_pdf
 
 CSV_data   = CSV.read(CSV_path, skiprows=10, delimiter='\t')
 CSV_header = CSV.get_header(CSV_data)
@@ -65,6 +65,9 @@ title = f"{filename_bdat}"
 x_lim = [np.min(x_data), np.max(x_data)]
 y_lim = [np.min(y_data), np.max(y_data)]
 
+#x_lim = [940, 1130]
+#y_lim = [-0.22, 0.05]
+
 grid_major = True
 grid_minor = False
 legend_on = True
@@ -97,7 +100,7 @@ axs.set_title(title)
 
 f.align_labels(fig)
 f.set_layout_tight(fig)
-#f.export_figure_as_pdf(PDF_path)
+f.export_figure_as_pdf(PDF_path)
 plt.show()
 
 
