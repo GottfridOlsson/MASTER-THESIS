@@ -113,10 +113,10 @@ if add_scalebar == True:
 
                 # add text x mu with CMU Serif font
                 # TODO
-                scalebar_text = str(micrometer_in_scalebar) + " μm" # fix good "mu" sign
-                font = ImageFont.truetype('C:\\MASTER-THESIS\\EXPERIMENTAL\\Python-scripts\\cmunbx.ttf', 20)
+                scalebar_text = str(micrometer_in_scalebar) + " μm"
+                font = ImageFont.truetype('cmunrm.ttf', 20)
                 draw.text((x_center_of_scalebar, y_center_of_scalebar+text_height_px_offset),
-                          scalebar_text, fill=(0,0,0), anchor="mt", font=font) # this will draw text with Blackcolor and 16 size
+                          scalebar_text, fill=(0,0,0), anchor="mt")#, font=font) # this will draw text with Blackcolor and 16 size
                                                                                      # anchor: https://pillow.readthedocs.io/en/stable/handbook/text-anchors.html#text-anchors
                 image.save(image_path + "_added-scalebar" + image_extension)
                 image.close() 
