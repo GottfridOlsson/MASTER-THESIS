@@ -13,12 +13,11 @@ import re #regular expression
 
 
 # CHANGE THESE FOR YOUR CASE #
-#rootpath_for_conversion = 'C:\\MASTER-THESIS\\EXPERIMENTAL\\Data\\SEM\\SEM images (.tif)\\Exported-SEM-images_2024-04-08' # remember to write '\\' for every '\'
-rootpath_for_conversion = 'C:\\MASTER-THESIS\\EXPERIMENTAL\\Data\\SEM\\SEM images (.tif)\\Exported-SEM-images_2024-04-08\\SEM-02_20kV20nA' # remember to write '\\' for every '\'
+rootpath_for_conversion = 'C:\\MASTER-THESIS\\EXPERIMENTAL\\Data\\SEM\\SEM images (.tif)\\Exported-SEM-images_2024-04-08' # remember to write '\\' for every '\'
 current_extension = '.tif' 
 
 add_scalebar = True
-remove_old_files = False
+remove_old_files = True
 
 
 
@@ -89,10 +88,10 @@ if add_scalebar == True:
 
             # Get magnification from file_path
             magnification_i = find_magnification_X_from_string(image_path)
-            print(magnification_i)
+            #print(magnification_i)
             magnification_i = int(magnification_i)
             px_in_scalebar, micrometer_in_scalebar = get_micrometers_per_scalebar_for_magnification(magnification_i)
-            print(magnification_i, px_in_scalebar, micrometer_in_scalebar)
+            #print(magnification_i, px_in_scalebar, micrometer_in_scalebar)
 
             if image_extension == current_extension:
 
@@ -113,8 +112,8 @@ if add_scalebar == True:
 
                 # add text x mu with CMU Serif font
                 # TODO
-                scalebar_text = str(micrometer_in_scalebar) + " μm" # fix good "mu" sign
-                font = ImageFont.truetype('C:\\MASTER-THESIS\\EXPERIMENTAL\\Python-scripts\\cmunbx.ttf', 20)
+                scalebar_text = str(micrometer_in_scalebar) + " μm" # fix good "mu" sign
+                font = ImageFont.truetype('C:\\MASTER-THESIS\\EXPERIMENTAL\\Python-scripts\\fonts\\arial.TTF', size=19)
                 draw.text((x_center_of_scalebar, y_center_of_scalebar+text_height_px_offset),
                           scalebar_text, fill=(0,0,0), anchor="mt", font=font) # this will draw text with Blackcolor and 16 size
                                                                                      # anchor: https://pillow.readthedocs.io/en/stable/handbook/text-anchors.html#text-anchors
