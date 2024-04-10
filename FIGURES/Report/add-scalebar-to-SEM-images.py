@@ -1,23 +1,22 @@
 ##=====================================================##
-##        File: crop_images.py
+##        File: add-scalebar-to-SEM-images.py
 ##      Author: GOTTFRID OLSSON 
-##     Created: 2023-08-16
-##     Updated: 2023-08-16
+##     Created: 2024-04-10
+##     Updated: 2024-04-10
 ##       About: Takes a rootpath and adds a scalebar to
 ##              all .tif images in that path.
 ##=====================================================##
 
 from PIL import Image, ImageDraw, ImageFont
 import os
-import re #regular expression
 
 
 # CHANGE THESE FOR YOUR CASE #
 rootpath_for_conversion = 'C:\\MASTER-THESIS\\EXPERIMENTAL\\Data\\SEM\\SEM images (.tif)\\Exported-SEM-images_2024-04-08' # remember to write '\\' for every '\'
 current_extension = '.tif' 
 
-add_scalebar = True
-remove_old_files = True
+add_scalebar = False
+remove_old_files = False
 
 
 
@@ -42,7 +41,7 @@ def micrometer_per_pixel(SEM_magnification):
 
 def get_micrometers_per_scalebar_for_magnification(magnification):
     # e.g. 131X = magnification of 131 times
-    magnification_micrometer_in_scalebar_per_magnification = [(131, 100), (500, 50), (1000, 10), (3000, 5), (5000, 5), (10000, 1)] # (magnification, mu_per_scalebar) as tuple
+    magnification_micrometer_in_scalebar_per_magnification = [(131, 100), (200, 100), (500, 50), (800, 50), (1000, 10), (1200, 10), (2000, 10), (3000, 5), (5000, 5), (10000, 1)] # (magnification, mu_per_scalebar) as tuple
     magnifications = [tuple[0] for tuple in magnification_micrometer_in_scalebar_per_magnification]
     micrometer_in_scalebar_per_magnification = [tuple[1] for tuple in magnification_micrometer_in_scalebar_per_magnification]
     micrometer_in_scalebar = 0
@@ -88,40 +87,58 @@ if add_scalebar == True:
 
             # Get magnification from file_path
             magnification_i = find_magnification_X_from_string(image_path)
-            #print(magnification_i)
-            magnification_i = int(magnification_i)
+
+            try:
+                magnification_i = int(magnification_i)
+            except:
+                print(f"EXCEPTION: Couldn't find magnification for filepath {file_path}. Skipping this item.")
+                continue
+
             px_in_scalebar, micrometer_in_scalebar = get_micrometers_per_scalebar_for_magnification(magnification_i)
-            #print(magnification_i, px_in_scalebar, micrometer_in_scalebar)
+
 
             if image_extension == current_extension:
 
+                # Open image
                 image = Image.open(file_path)
-                width, height = image.size
                 draw = ImageDraw.Draw(image) # as to be able to draw lines on the image
 
-                # draw scalebar
+                # coordinates
+                width, height = image.size #in px
                 text_height_px_offset = 10 #not true text height in px, but the offset
-                bottom_px_offset = 25 + text_height_px_offset # taking into account text we want to write below
-                right_px_offset = 25
-                xy_coordinates = [(width-right_px_offset-px_in_scalebar, height-bottom_px_offset),
-                                  (width-right_px_offset,                height-bottom_px_offset)] # line will be draw between these (x,y) coorindates; [(x,y), (x,y), ...]
-                draw.line(xy_coordinates, fill='black', width=3)
-                
+                px_offset = 25
+                bottom_px_offset = px_offset + text_height_px_offset # taking into account text we want to write below
+                right_px_offset = px_offset
+                xy_coordinates_scalebar = [(width-right_px_offset-px_in_scalebar, height-bottom_px_offset),
+                                           (width-right_px_offset,                height-bottom_px_offset)] # line will be draw between these (x,y) coorindates; [(x,y), (x,y), ...]
                 x_center_of_scalebar = width-right_px_offset-0.5*px_in_scalebar
                 y_center_of_scalebar = height-bottom_px_offset
+                text_x_center = x_center_of_scalebar
+                text_y_center = y_center_of_scalebar+0.7*text_height_px_offset
+                rectangle_offset = 3
+                rectangle_offset_bottom = 8
+                ad_hoc_offset = 1
+                xy_coordinates_rectangle = [(width-right_px_offset-px_in_scalebar-rectangle_offset, height-bottom_px_offset-rectangle_offset-ad_hoc_offset),
+                                           (width-right_px_offset+rectangle_offset,                height-rectangle_offset_bottom-ad_hoc_offset)]
 
-                # add text x mu with CMU Serif font
-                # TODO
-                scalebar_text = str(micrometer_in_scalebar) + " μm" # fix good "mu" sign
+
+                # draw white rectangle
+                draw.rectangle(xy_coordinates_rectangle, fill='white')
+
+                # draw scalebar
+                draw.line(xy_coordinates_scalebar, fill='black', width=3)
+
+                # add scalebar text
+                scalebar_text = str(micrometer_in_scalebar) + " μm" # half-space before "mu", use arial bcs. CMU Serif resulted in wonky "mu"
                 font = ImageFont.truetype('C:\\MASTER-THESIS\\EXPERIMENTAL\\Python-scripts\\fonts\\arial.TTF', size=19)
-                draw.text((x_center_of_scalebar, y_center_of_scalebar+text_height_px_offset),
-                          scalebar_text, fill=(0,0,0), anchor="mt", font=font) # this will draw text with Blackcolor and 16 size
-                                                                                     # anchor: https://pillow.readthedocs.io/en/stable/handbook/text-anchors.html#text-anchors
+                draw.text((text_x_center, text_y_center), scalebar_text, fill=(0,0,0), anchor="mt", font=font) # this will draw text with Blackcolor and 16 size # anchor: https://pillow.readthedocs.io/en/stable/handbook/text-anchors.html#text-anchors
+                
+                # save image with drawn objects on
                 image.save(image_path + "_added-scalebar" + image_extension)
+                print(f'CREATED: {image_path + "_added-scalebar" + image_extension} was created.')
                 image.close() 
                   
-                print(f'CREATED: {image_path + "_added-scalebar" + image_extension} was created.')
-                
+
                 if remove_old_files:
                     os.remove(file_path)
                     print(f'DELETED: {file_path} was deleted.')
@@ -132,3 +149,6 @@ if add_scalebar == True:
         print('Procedure aborted.')
     else:
         print("Procedure aborted due to bad user input, please answer 'Y' or 'N' next time.")
+    
+else:
+    print("Set 'add_scalebar' to True in order to run the program.")
