@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="155.17381mm"
+   width="155.1738mm"
    height="150.11661mm"
-   viewBox="0 0 155.17382 150.11661"
+   viewBox="0 0 155.1738 150.11661"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -25,8 +25,8 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="1.4142136"
-     inkscape:cx="313.60186"
-     inkscape:cy="393.50492"
+     inkscape:cx="261.27595"
+     inkscape:cy="398.45467"
      inkscape:window-width="1920"
      inkscape:window-height="1046"
      inkscape:window-x="-11"
@@ -35,16 +35,16 @@
      inkscape:current-layer="g1"><inkscape:page
        x="0"
        y="0"
-       width="155.17381"
+       width="155.1738"
        height="150.11661"
        id="page1"
        margin="0"
        bleed="0"
-       inkscape:export-filename="Schematic_Li-deposition-on-Cu_2024-05-17T1546_cover-figure.pdf"
+       inkscape:export-filename="Nucleation-deposition-curve-characteristic_nucleation-plateau-regions_Li-dep-schematic-on-Cu_2024-05-17T1546.pdf"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" /><inkscape:page
-       x="-1.5956979e-06"
-       y="1.9148928e-07"
+       x="4.7877156e-06"
+       y="-2.5056445e-07"
        width="155.1738"
        height="80.962425"
        id="page2"
@@ -6245,7 +6245,8 @@
    y2="325.10651" /></defs><g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Layer 3" /><g
+     inkscape:label="Layer 3"
+     transform="translate(1.3237797e-5)" /><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
@@ -6257,36 +6258,36 @@
      id="g1"
      inkscape:groupmode="layer"
      inkscape:label="1"
-     transform="matrix(0.264583,0,0,0.264583,2.8031911e-7,-2.1243909e-6)"><text
+     transform="matrix(0.264583,0,0,0.264583,3.2377974e-6,-2.8055531e-6)"><text
        xml:space="preserve"
        style="font-size:17.3333px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.26772;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
-       x="217.86037"
+       x="221.86037"
        y="375.62674"
        id="text78"><tspan
          sodipodi:role="line"
          id="tspan78"
          style="stroke-width:2.26772"
-         x="217.86037"
+         x="221.86037"
          y="375.62674">Li</tspan></text><text
        xml:space="preserve"
        style="font-size:17.3333px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.26772;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
-       x="223.9541"
+       x="227.9541"
        y="514.78149"
        id="text79"><tspan
          sodipodi:role="line"
          id="tspan79"
          style="stroke-width:2.26772"
-         x="223.9541"
+         x="227.9541"
          y="514.78149">Cu</tspan></text><path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32284;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
-       d="M 121.29901,560.51037 V 522.26029"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
+       d="M 121.29901,560.32139 V 522.07131"
        id="path79-0" /><path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32284;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.94488308;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
        d="M 120.98453,331.03702 H 32.630864 v 228.81193 h 88.405446"
        id="path80"
        sodipodi:nodetypes="cccc" /><g
        inkscape:label=""
-       transform="matrix(3.7795324,0,0,3.7795324,194.35669,441.03083)"
+       transform="matrix(3.7795324,0,0,3.7795324,198.35669,441.03083)"
        id="g116">
   
   <g
@@ -6315,15 +6316,15 @@
 </g></g><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.3333px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.51181;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
-       x="11.77914"
+       x="9.7791376"
        y="451.20016"
        id="text84"><tspan
          sodipodi:role="line"
          id="tspan84"
          style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium Italic';stroke-width:1.51181"
-         x="11.77914"
+         x="9.7791376"
          y="451.20016">V</tspan></text><ellipse
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.51181;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.94488308;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
        id="path81"
        cx="32.545197"
        cy="445.44299"
@@ -6801,8 +6802,8 @@
            style="fill:url(#radialGradient54-6);fill-opacity:1;stroke:none;stroke-width:0.040017;stroke-dasharray:none;stroke-opacity:1"
            d="m 240.25354,122.65959 c -7.66179,1e-5 -13.87291,1.99851 -13.87299,4.46381 8e-5,2.46529 6.2112,4.46379 13.87299,4.4638 7.6618,0 13.87292,-1.99851 13.873,-4.4638 -8e-5,-2.4653 -6.2112,-4.46381 -13.873,-4.46381 z"
            sodipodi:nodetypes="scscs" /></g></g><path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32284;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
-       d="M 121.29901,361.66486 V 330.3756"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
+       d="M 121.29901,361.85384 V 330.56458"
        id="path79" /><g
        id="g149"
        transform="matrix(0.90077461,0,0,0.90077461,44.184331,49.251363)"><g
@@ -8598,23 +8599,23 @@
        inkscape:path-effect="#path-effect13-2-1" /><text
        xml:space="preserve"
        style="font-size:17.3333px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.26772;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
-       x="1318.3331"
+       x="1322.3331"
        y="133.12949"
        id="text78-6"><tspan
          sodipodi:role="line"
          id="tspan78-8"
          style="stroke-width:2.26772"
-         x="1318.3331"
+         x="1322.3331"
          y="133.12949">Li</tspan></text><text
        xml:space="preserve"
        style="font-size:17.3333px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.26772;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
-       x="1324.4269"
+       x="1328.4269"
        y="272.28424"
        id="text79-0"><tspan
          sodipodi:role="line"
          id="tspan79-7"
          style="stroke-width:2.26772"
-         x="1324.4269"
+         x="1328.4269"
          y="272.28424">Cu</tspan></text><path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32284;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
        d="M 1221.7718,318.01313 V 279.76305"
@@ -8624,7 +8625,7 @@
        id="path80-9"
        sodipodi:nodetypes="cccc" /><g
        inkscape:label=""
-       transform="matrix(3.7795324,0,0,3.7795324,1294.8295,198.53359)"
+       transform="matrix(3.7795324,0,0,3.7795324,1294.8295,398.53389)"
        id="g116-1">
   
   <g
@@ -8653,13 +8654,13 @@
 </g></g><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.3333px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.51181;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
-       x="1112.252"
+       x="1110.252"
        y="208.70293"
        id="text84-3"><tspan
          sodipodi:role="line"
          id="tspan84-2"
          style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium Italic';stroke-width:1.51181"
-         x="1112.252"
+         x="1110.252"
          y="208.70293">V</tspan></text><ellipse
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.51181;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1"
        id="path81-3"
