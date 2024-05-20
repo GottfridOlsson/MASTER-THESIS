@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="149.27069mm"
+   width="149.271mm"
    height="109.91482mm"
-   viewBox="0 0 149.27071 109.91483"
+   viewBox="0 0 149.27102 109.91483"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -35,7 +35,7 @@
      inkscape:current-layer="layer4"><inkscape:page
        x="0"
        y="0"
-       width="149.27072"
+       width="149.27103"
        height="109.91483"
        id="page1"
        margin="0"
@@ -6701,33 +6701,33 @@
        xml:space="preserve"
        style="font-weight:500;font-size:14.6667px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-decoration-color:#000000;text-anchor:middle;fill:#d6d5db;stroke:#000000;stroke-width:1.00158;stroke-dasharray:none"
        x="1400.3341"
-       y="143.19728"
+       y="3.1971164"
        id="text1-2"><tspan
          sodipodi:role="line"
          id="tspan1-8"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00158;stroke-dasharray:none"
          x="1400.3341"
-         y="143.19728">Nucleation</tspan></text><text
+         y="3.1971164">Nucleation</tspan></text><text
        xml:space="preserve"
        style="font-weight:500;font-size:14.6667px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-decoration-color:#000000;text-anchor:middle;fill:#d6d5db;stroke:#000000;stroke-width:1.00158;stroke-dasharray:none"
        x="1563.2866"
-       y="143.20085"
+       y="3.2006869"
        id="text1-6-8"><tspan
          sodipodi:role="line"
          id="tspan1-6-5"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00158;stroke-dasharray:none"
          x="1563.2866"
-         y="143.20085">Growth</tspan></text><path
+         y="3.2006869">Growth</tspan></text><path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-dasharray:none;stroke-opacity:1"
        d="m -1205.4419,280.54499 h 85.2065"
        id="path13"
        inkscape:path-effect="#path-effect13-7"
        inkscape:original-d="m -1205.4419,280.54499 c 28.6379,0 56.9222,0 85.2065,0"
-       transform="translate(2563.2731,-130.80613)" /><path
+       transform="translate(2563.2731,-270.80634)" /><path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.626271;stroke-dasharray:none;stroke-opacity:1"
        d="m -1205.4419,280.54499 h 85.2065"
        id="path13-1"
-       transform="matrix(2.2763127,0,0,1,4210.541,-130.80613)"
+       transform="matrix(2.2763127,0,0,1,4210.541,-270.80634)"
        inkscape:original-d="m -1205.4419,280.54499 c 28.6379,0 56.9222,0 85.2065,0"
        inkscape:path-effect="#path-effect13-2-2" /><g
        inkscape:label=""
@@ -6792,7 +6792,7 @@
      id="layer4"
      inkscape:label="2"><g
        id="g28"
-       transform="translate(0.55194669)"><path
+       transform="translate(0.55194669,5.2916667)"><path
          style="fill:none;stroke:#000000;stroke-width:0.346186;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:1.05827;stroke-opacity:1;marker-end:url(#ArrowWideRounded-3)"
          d="M 67.900756,11.694101 H 146.66013"
          id="path43-3" /><text
@@ -6805,4 +6805,14 @@
            id="tspan3-7-4"
            x="121.78999"
            y="9.3037024"
-           style="stroke-width:0.265001">Charge passed</tspan></text></g></g></svg>
+           style="stroke-width:0.265001">Charge passed</tspan></text></g><text
+       xml:space="preserve"
+       style="font-weight:500;font-size:7.4789px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-decoration-color:#000000;text-anchor:middle;fill:#000000;stroke-width:0.25;-inkscape-stroke:none"
+       x="108.51142"
+       y="85.312424"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.25"
+         x="108.51142"
+         y="85.312424">Li nuclei</tspan></text></g></svg>

@@ -1,9 +1,6 @@
 2024_02-21_SEM-03_image-153-sample-K_magnification-1000X_upperPartOfLowerDepositionBand_manualCount.tif
  229 particles
- or N = 
 
-2024-02-21_SEM-03_image-155_sample-K_magnification-1000X_middlePartOfLowerDepositionBand_manualCount_lowCount.tif
- 189 particles
 2024-02-21_SEM-03_image-155_sample-K_magnification-1000X_middlePartOfLowerDepositionBand_manualCount_higherCount.tif
  210 particles
 
@@ -15,8 +12,7 @@ Total imaged area:
  A = 9695 mu^2
 
  N_1  = 229 particles/A = 0.023621 particles/mu^2
- N_2  = 189 particles/A = 0.019495 particles/mu^2
- N_2' = 210 particles/A = 0.021661 particles/mu^2
+ N_2 = 210 particles/A = 0.021661 particles/mu^2
  N_3  = 151 particles/A = 0.015576 particles/mu^2
 
 
