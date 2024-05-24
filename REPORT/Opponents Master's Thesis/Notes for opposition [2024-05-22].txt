@@ -25,3 +25,15 @@ Qs:
 1. When you talked about X, you mentioned that ... I am curious about what
    ... 
 
+2. You mentioned that Na does not intercalate effectively in graphite, 
+   however you showed that Na could intercalte in graphite sheets in Hard Carbon.
+   Could you elaborate on that?
+
+3. WAXS peak other than the one showed; what does it mean?
+
+4. You mentioned three types of Na storage mechanisms in hard carbon. You talked
+   mostly about the pore filling and intercalation, and not so much about surface adsorption.
+   Can that mechanism be studied using SAXS/WAXS, or would you need another experimental
+   approach for that? 
+
+5. 
