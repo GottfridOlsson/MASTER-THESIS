@@ -1,0 +1,52 @@
+From: https://masterthesis.cms.chalmers.se/content/presentation-and-opposition
+
+Som opponent:
+* Framför min åsikt på presentationen
+* Ställ frågor på innehållet och diskutera det med presentatören
+* Frågorna ska inte vara om detaljer utan mer generella
+
+
+----------------------------------------------------
+
+Thank you Isak for the very nice presentation.
+
+Q:
+1. I have some thoughts about the storage mechanisms of Na in graphite, 
+   which you showed are pore filling, intercalation, and adsorption to the surface.
+
+	a) First question, you mentioned that Na does not intercalate effectively in
+	   graphite, but you showed that Na could intercalte graphite sheets in 
+	   hard carbon. Could you elaborate on that?
+
+	b) You talked mostly about the pore filling and intercalation, and not so
+	   much about surface adsorption. Can that mechanism also be studied using
+	   SAX/WAXS, or would you need another experimental approach for that?
+
+     	c) There seemed to be many different models for the storage memchanisms.
+	   What do you think is the main reason for reaching such different
+	   conclusions for storage in the hard carbon?
+
+
+2. On the slide with WAXS curves in the atomic structure regime, you spoke mostly
+   about the large peak at q = 1.7/Å
+
+	a) If I remember, there was another peak there, can you talk about what
+           that peak means?
+
+	b) For increasing sodiation, that second peak (1.5/Å) is seen for EC:PC,
+           but not as much for the diglyme electrolyte. What would make that happen,
+	   if the second peak comes from the binder?
+
+
+3. About the voltage profile (in Figure 6.1:) during the sodiation of the hard carbon.
+
+	a) There was a sudden drop in voltage for EC5 in the plateau region after
+	   100 mAh/g, have you some idea for why this happens for EC5 cells but
+	   not the EC10 cells?
+
+	b) Different cutoff voltages were used to end the sodiation. Could you talk
+	   about the pros and cons of choosing to end the sodiation at a certain
+	   voltage instead of, for example, a certain capacity?
+
+
+
