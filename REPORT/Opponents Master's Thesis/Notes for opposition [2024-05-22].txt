@@ -16,30 +16,35 @@ Som opponent:
 
 
 
-Exempel manus:
+Exempel frågor
 
 Thank you Isak for the very nice presentation, I really liked how you
  presented/explained X.
 
 Qs:
-1. When you talked about X, you mentioned that ... I am curious about what
-   ... 
-
-2. You mentioned that Na does not intercalate effectively in graphite, 
-   however you showed that Na could intercalte in graphite sheets in Hard Carbon.
+1. You mentioned that Na does not intercalate effectively in graphite, 
+   however you showed that Na could intercalte in graphite sheets in hard Carbon.
    Could you elaborate on that?
 
-3. WAXS peak other than the one showed; what does it mean?
+2. On the slide with WAXS curves in the atomic structure regime, you spoke mostly
+   about the large peak at q = 1.7/Å. If I remember, there was another peak there, 
+   which can you talk about what that means?
+     Follow up: For increasing sodiation, that second peak (1.5/Å) is seen for EC:PC,
+                but not as much for the diglyme electrolyte. What would make that
+		happen, if the second peak comes from the binder?
 
-4. You mentioned three types of Na storage mechanisms in hard carbon. You talked
+3. You mentioned three types of Na storage mechanisms in hard carbon. You talked
    mostly about the pore filling and intercalation, and not so much about surface adsorption.
-   Can that mechanism be studied using SAXS/WAXS, or would you need another experimental
-   approach for that? 
+   Can that mechanism also be studied using SAXS/WAXS, or would you need another experimental
+   approach for that?
+     Follow up: there seemed to be many different models for the storage memchanisms, 
+                what do you think is the main reason for reaching such different conclusions
+                for storage in the hard carbon?
 
-5. Figure 6.1: the sudden drop in voltage for EC5 in the plateau region after 100mAh/g, 
+4. Figure 6.1: the sudden drop in voltage for EC5 in the plateau region after 100mAh/g, 
    have you some idea for why this happens for EC5 cells but not the EC10 cells?
 
-6. Figure 6.1: in Figure 6.1 you said that different cutoff voltages were used to end the
+5. Figure 6.1: in Figure 6.1 you said that different cutoff voltages were used to end the
    sodiation. Could you talk about the pros and cons of choosing to end the sodiation at
    some voltage instead of for example some capacity?
 
