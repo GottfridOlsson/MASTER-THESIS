@@ -1,0 +1,23 @@
+
+Main colors, RGBA (hex)
+
+
+Object
+---------------------------
+Li atom		: d6d6d6ff
+Li solid metal	: c8c7ccff
+Cu metal	: e1964fff
+Al metal	: 9ca1a3ff
+LiCoO2 metal	: 007bffff
+Graphite	: 6d7273ff
+Electrolyte	: c3ebfaa6 
+Separator	: 807b7bff (stroke style "2 3" in Inkscape)
+
+
+
+
+For gradients
+---------------------------
+Li metal/atom	: c0bfc4ff, f0f0f2ff
+Cu metal	: d18840ff, dc8f46ff, e19956ff, e6a468ff, ebaf7dff
+
