@@ -7,7 +7,21 @@ Som opponent:
 
 
 ----------------------------------------------------
+Notes Isaks presentation:
 
+-Na intercal Ge ineffecive
+ ,but na in Gr sheets in HC
+
+-models; was your model in agreement w. previous results?
+
+-1 formation cycle enough? Ja.
+
+-voltage profile drop EC5 but not EC10
+
+-two peaks WAXS atomic structure
+
+
+-----
 Thank you Isak for the very nice presentation.
 
 Q:
@@ -39,7 +53,7 @@ Q:
 
 
 3. On the slide with WAXS curves in the atomic structure regime, you spoke mostly
-   about the large peak at q = 1.7/Å
+   about the large peak (at q = 1.7/Å).
 
 	a) If I remember, there was another peak there, can you talk about what
            that peak means?
