@@ -9,7 +9,7 @@
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="Li-metal-battery_LCO-Li-metal_schematic.svg"
-   inkscape:export-filename="Li-metal-battery_LCO-Li-metal_schematic_2024-06-03T1143_LMB.pdf"
+   inkscape:export-filename="Li-metal-battery_LCO-Li-metal_schematic_2024-06-05T1118_LMB.pdf"
    inkscape:export-xdpi="350"
    inkscape:export-ydpi="350"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="2"
-     inkscape:cx="224.25"
-     inkscape:cy="265.25"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="363.01094"
+     inkscape:cy="338.43898"
      inkscape:window-width="1920"
      inkscape:window-height="1046"
      inkscape:window-x="-11"
@@ -2517,7 +2517,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.47252px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">Separator</tspan></text>
     <g
        inkscape:label=""
-       transform="matrix(0.26022763,0,0,0.26022763,232.93235,270.62393)"
+       transform="matrix(0.26022763,0,0,0.26022763,230.99893,276.79124)"
        id="g43"
        style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.87225;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000">
       <g
@@ -2611,6 +2611,19 @@
          x="238.49467"
          y="267.77716"
          style="font-size:3.47252px;stroke-width:0.281249">Electrode</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:3.47252px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-decoration-color:#000000;text-anchor:middle;fill:#000000;stroke-width:0.281249;-inkscape-stroke:none"
+       x="238.50197"
+       y="273.07233"
+       id="text1-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-1"
+         x="238.50197"
+         y="273.07233"
+         style="font-size:3.47252px;stroke-width:0.281249">LiCoO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4">2</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:3.47252px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-decoration-color:#000000;text-anchor:middle;fill:#000000;stroke-width:0.281249;-inkscape-stroke:none"
