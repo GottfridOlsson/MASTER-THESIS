@@ -28,7 +28,7 @@ def get_absolute_path_of_directories_and_files_in_rootpath(rootpath):
     # brrowed from: https://stackoverflow.com/questions/120656/directory-tree-listing-in-python?noredirect=1&lq=1
     directories_path, files_path = [], []
 
-    for dirname, dirnames, filenames in os.walk(rootpath_for_conversion):
+    for dirname, dirnames, filenames in os.walk(rootpath):
         
         for subdirname in dirnames:
             directories_path.append(os.path.join(dirname, subdirname))
